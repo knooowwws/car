@@ -13,7 +13,7 @@
 @import './modules/blocks/header/__nav-el/header__nav-el.scss';
 @import './modules/blocks/header/__link/header__link.scss';
 @import './modules/blocks/header/__burger/header__burger.scss';
-@import './modules/blocks/header/__burger/_active/header__burger_active.scss';
+@import './modules/blocks/header/__burger/_status/header__burger_status_active.scss';
 
 //logo
 @import './modules/blocks/logo/logo.scss';
@@ -22,9 +22,33 @@
 
 //start
 @import './modules/blocks/start/start.scss';
-@import './modules/blocks/start/__text-wrapper/start__text-wrapper.scss';
+@import './modules/blocks/start/__text-block/start__text-block.scss';
 @import './modules/blocks/start/__title/start__title.scss';
 @import './modules/blocks/start/__subtitle/start__subtitle.scss';
 @import './modules/blocks/start/__text/start__text.scss';
 @import './modules/blocks/start/__link/start__link.scss';
 @import './modules/blocks/start/__photo/start__photo.scss';
+
+//info
+@import './modules/blocks/info/info.scss';
+@import './modules/blocks/info/__bold/info__bold.scss';
+@import './modules/blocks/info/__card/info__card.scss';
+@import './modules/blocks/info/__card/_position/info__card_position_first.scss';
+@import './modules/blocks/info/__card/_position/info__card_position_second.scss';
+@import './modules/blocks/info/__card/_position/info__card_position_third.scss';
+@import './modules/blocks/info/__text/info__text.scss';
+@import './modules/blocks/info/__title/info__title.scss';
+@import './modules/blocks/info/__ul/info__ul.scss';
+@import './modules/blocks/info/__el/info__el.scss';
+@import './modules/blocks/info/__el/_type/info__el_type_plus.scss';
+@import './modules/blocks/info/__el/_type/info__el_type_minus.scss';
+
+//gallery
+@import "./modules/blocks/gallery/gallery.scss";
+@import "./modules/blocks/gallery/__block/gallery__block.scss";
+@import "./modules/blocks/gallery/__photo-item/gallery__photo-item.scss";
+@import "./modules/blocks/gallery/__text/gallery__text.scss";
+@import "./modules/blocks/gallery/__nav-wrapper/gallery__nav-wrapper.scss";
+@import "./modules/blocks/gallery/__nav-arrow/gallery__nav-arrow.scss";
+@import "./modules/blocks/gallery/__nav-arrow/_type/gallery__nav-arrow_type_left.scss";
+@import "./modules/blocks/gallery/__nav-arrow/_type/gallery__nav-arrow_type_right.scss";

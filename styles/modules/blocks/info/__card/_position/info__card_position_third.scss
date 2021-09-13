@@ -1,0 +1,17 @@
+.info__card_position_third {
+  min-height: 506px;
+}
+
+@media screen and (max-width: 768px) {
+  .info__card_position_third {
+    min-height: 506px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .info__card_position_third {
+    min-height: 0;
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+}

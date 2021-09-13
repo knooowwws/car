@@ -10,17 +10,17 @@
 </head>
 
 <body class="page">
-	<header class="header page__section page__section_place_header">
+	<header class="header page__section">
 		<nav class="header__nav ">
 			<ul class="header__nav-block header__nav_status_none">
 				<li class="header__nav-el">
-					<a href="#" class="header__link link">Факты</a>
+					<a href="#" class="header__link">Факты</a>
 				</li>
 				<li class="header__nav-el">
-					<a href="#" class="header__link link">Галерея</a>
+					<a href="#" class="header__link">Галерея</a>
 				</li>
 				<li class="header__nav-el">
-					<a href="#" class="header__link link">Пресса</a>
+					<a href="#" class="header__link">Пресса</a>
 				</li>
 			</ul>
 		</nav>
@@ -31,15 +31,65 @@
 	</header>
 
 	<main class="content">
-		<section class="start page__section page__section_place_start">
-			<div class="start__text-wrapper">
-				<h1 class="page-text start__title"><span class="span-accent_uppercase">volkswagen T1</span></h1>
-				<h2 class="page-text start__subtitle">Новая версия популярного микроавтобуса</h2>
-				<p class="page-text start__text"><span class="span-accent_uppercase">С электро двигателем</span></p>
+		<section class="start page__section">
+			<div class="start__text-block">
+				<h1 class="start__title"><span class="span-accent_uppercase">volkswagen T1</span></h1>
+				<h2 class="start__subtitle">Новая версия популярного микроавтобуса</h2>
+				<p class="start__text"><span class="span-accent_uppercase">С электро двигателем</span></p>
 			</div>
 			<img src="./images/bus1.jpg" alt="Фото автобуса" class="start__photo" />
 			<a href="#" class="start__link link">Подробнее</a>
 		</section>
+
+		<section class="info page__section">
+			<div class="info__card info__card_position_first">
+				<p class="info__text">
+					<span class="info__bold">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт
+					e-Bulli: классический вэн T1 1966 года
+					с электрической силовой установкой.
+					По словам производителя, проект получит коммерческое продолжение, и через фирму-партнера eClassics наборы для
+					конверсии микроавтобусов в электрокары
+					и уже готовые машины будут продавать частным клиентам.
+				</p>
+			</div>
+			<div class="info__card info__card_position_second">
+				<h2 class="info__title">Плюсы</h2>
+				<ul class="info__ul">
+					<li class="info__el info__el_type_plus">Экологичный</li>
+					<li class="info__el info__el_type_plus">Экономный</li>
+					<li class="info__el info__el_type_plus">Тихий</li>
+				</ul>
+			</div>
+			<div class="info__card info__card_position_third">
+				<h3 class=" info__title">Минусы</h3>
+				<ul class="info__ul">
+					<li class="info__el info__el_type_minus">Дорогой</li>
+					<li class="info__el info__el_type_minus">Подзарядка</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="gallery page__section">
+			<!--контейнер для слайдра-->
+			<div class="gallery__block">
+				<!--Обязательная оболочка слайдера-->
+				<div class="swiper-wrapper">
+					<!--слайд-->
+					<img src="./images/gallery/bus_on_road.jpg" alt="Фото автобуса" class="swiper-slide gallery__photo-item" />
+					<!--слайд-->
+					<img src="./images/gallery/bus_inside1.jpg" alt="Фото автобуса" class="swiper-slide gallery__photo-item" />
+					<!--слайд-->
+					<img src="./images/gallery/bus_inside.jpg" alt="Фото автобуса" class="swiper-slide gallery__photo-item" />
+				</div>
+				<!--Навигация слайдера-->
+				<div class="gallery__nav-wrapper">
+					<p class="page-text gallery__text">Галерея</p>
+					<div class="gallery__nav-arrow gallery__nav-arrow_type_left"></div>
+					<div class="gallery__nav-arrow gallery__nav-arrow_type_right"></div>
+				</div>
+			</div>
+		</section>
+
 	</main>
 
 </body>

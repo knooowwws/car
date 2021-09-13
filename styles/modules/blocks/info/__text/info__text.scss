@@ -1,0 +1,14 @@
+.info__text {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 42px;
+  padding: 41px 50px 45px 50px;
+}
+
+@media screen and (max-width: 320px) {
+  .info__text { 
+    font-size: 16px;
+    line-height: 27px;
+    padding: 18px 20px 18px 20px;
+  }
+}

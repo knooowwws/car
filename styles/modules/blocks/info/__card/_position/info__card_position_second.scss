@@ -1,0 +1,14 @@
+.info__card_position_second {}
+
+@media screen and (max-width: 768px) {
+  .info__card_position_second {
+    min-height: 506px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .info__card_position_second {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+}
