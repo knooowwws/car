@@ -1,0 +1,30 @@
+//other
+@import './modules/variables.scss';
+
+//pgae
+@import './modules/blocks/page/page.scss';
+@import './modules/blocks/page/__section/page__section.scss';
+
+//header
+@import './modules/blocks/header/header.scss';
+@import './modules/blocks/header/__nav/header__nav.scss';
+@import './modules/blocks/header/__nav-block/header__nav-block.scss';
+@import './modules/blocks/header/__nav/_status/header__nav_status_none.scss';
+@import './modules/blocks/header/__nav-el/header__nav-el.scss';
+@import './modules/blocks/header/__link/header__link.scss';
+@import './modules/blocks/header/__burger/header__burger.scss';
+@import './modules/blocks/header/__burger/_active/header__burger_active.scss';
+
+//logo
+@import './modules/blocks/logo/logo.scss';
+@import './modules/blocks/logo/_place/logo_place_header.scss';
+@import './modules/blocks/logo/_status/logo_status_none.scss';
+
+//start
+@import './modules/blocks/start/start.scss';
+@import './modules/blocks/start/__text-wrapper/start__text-wrapper.scss';
+@import './modules/blocks/start/__title/start__title.scss';
+@import './modules/blocks/start/__subtitle/start__subtitle.scss';
+@import './modules/blocks/start/__text/start__text.scss';
+@import './modules/blocks/start/__link/start__link.scss';
+@import './modules/blocks/start/__photo/start__photo.scss';

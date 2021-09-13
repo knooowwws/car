@@ -1,0 +1,22 @@
+.logo_place_header {
+  width: 184px;
+  height: 38px;
+  position: absolute;
+  left: calc((1/2 - 184/(2*1440))*100%);
+  bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo_place_header {
+    left: calc((1/2 - 184/(2*768))*100%);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo_place_header {
+    width: 100px;
+    height: 20px;
+    left: calc((1/2 - 100/(2*320))*100%);
+    bottom: 22px;
+  }
+}
