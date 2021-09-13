@@ -1,0 +1,15 @@
+.start__text {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  padding-bottom: 62px;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .start__text {
+    font-size: 11px;
+    line-height: 14px;
+    padding-bottom: 60px;
+  }
+}

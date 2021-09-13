@@ -1,0 +1,54 @@
+.start__link {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-self: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: $borderStyle;
+  width: 360px;
+  height: 64px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+
+.start__link:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: $backgroundHoverColor;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform-origin: bottom left;
+  transform: rotate(-90deg);
+  transition: transform 0.3s;
+}
+
+.start__link:hover,
+.start__link:hover:before {
+  transform: rotate(0deg);
+  color: $textHoverColor;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .start__link {
+    width: 240px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .start__link {
+    width: 280px;
+  }
+}

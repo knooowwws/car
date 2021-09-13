@@ -1,0 +1,16 @@
+.start__subtitle {
+  font-weight: 400;
+  font-size: 65px;
+  line-height: 73px;
+  padding-bottom: 51px;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .start__subtitle {
+    font-size: 38px;
+    line-height: 50px;
+    padding-bottom: 30px;
+  }
+}

@@ -1,0 +1,21 @@
+.start {
+  display: grid;
+  border-bottom: $borderStyle;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+  padding: 150px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .start {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 102px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .start {
+    padding: 0 0 62px;
+  }
+}
