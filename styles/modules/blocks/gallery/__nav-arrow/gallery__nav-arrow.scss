@@ -2,9 +2,9 @@
   width: 42px;
   height: 34px;
   background-image: url(../images/arrow-right.svg);
+  cursor: pointer;
   background-repeat: no-repeat;
   transition: all 0.2s;
-  cursor: pointer;
   align-self: center;
 
   &:hover {

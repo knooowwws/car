@@ -30,7 +30,7 @@
     width: 100%;
     z-index: -1;
     transform-origin: bottom left;
-    transform: rotate(-90deg);
+    transform: translate(-100%, 0);
     transition: transform 0.3s;
   }
 }
@@ -38,7 +38,7 @@
 
 .media__link:hover,
 .media__link:hover:before {
-  transform: rotate(0deg);
+  transform: translate(0, 0);
   color: $textHover;
   cursor: pointer;
 }

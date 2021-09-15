@@ -1,11 +1,11 @@
 .media__bullet {
   display: inline-block;
+  box-sizing: border-box;
   width: 12px;
   height: 12px;
   border: $border;
   border-radius: 50%;
   cursor: pointer;
-  box-sizing: border-box;
 }
 
 .media__bullet:last-child {

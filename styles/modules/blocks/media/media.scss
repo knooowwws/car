@@ -1,7 +1,7 @@
 .media {
   display: flex;
-  min-height: 500px;
   border-bottom: $border;
+  min-height: 500px;
 }
 
 @media screen and (max-width: 320px) {

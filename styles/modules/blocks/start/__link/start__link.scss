@@ -22,21 +22,21 @@
   &::before {
     content: '';
     position: absolute;
-    left: 0;
     top: 0;
-    background-color: $backgroundHover;
+    left: 0;
     height: 100%;
+    background-color: $backgroundHover;
+    transition: transform 0.3s;
     width: 100%;
     z-index: -1;
     transform-origin: bottom left;
-    transform: rotate(-90deg);
-    transition: transform 0.3s;
+    transform: translate(-100%, 0);
   }
 }
 
 .start__link:hover,
 .start__link:hover:before {
-  transform: rotate(0deg);
+  transform: translate(0, 0);
   color: $textHover;
   cursor: pointer;
 }
