@@ -1,0 +1,16 @@
+.form__btn {
+  width: 80px;
+  height: 32px;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+  background-color: $backgroundHover;
+  color: $textHover;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  align-self: end;
+}
