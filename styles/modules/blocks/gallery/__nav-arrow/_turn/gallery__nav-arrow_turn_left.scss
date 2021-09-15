@@ -1,3 +1,9 @@
 .gallery__nav-arrow_turn_left {
   background-image: url(../images/arrow-left.svg);
 }
+
+@media screen and (max-width: 560px) {
+  .gallery__nav-arrow_turn_left {
+    background-image: url(../images/arrow-left-min.svg);
+  }
+}
