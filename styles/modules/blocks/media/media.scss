@@ -1,0 +1,11 @@
+.media {
+  display: flex;
+  min-height: 500px;
+  border-bottom: $border;
+}
+
+@media screen and (max-width: 320px) {
+  .media {
+    min-height: 286px;
+  }
+}

@@ -1,4 +1,6 @@
 .info__el_type_minus {
+  margin: 0;
+
   &::before {
     content: '- ';
   }

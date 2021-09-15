@@ -1,7 +1,7 @@
 .info {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  border-bottom: $borderStyle;
+  border-bottom: $border;
 }
 
 @media screen and (max-width: 768px) {
@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .info {
     grid-template-columns: 1fr;
     grid-auto-rows: min-content min-content min-content;

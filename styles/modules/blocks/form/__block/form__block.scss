@@ -1,0 +1,13 @@
+.form__block {
+  display: grid;
+  grid-template-rows: min-content min-content;
+  grid-template-columns: 170px 170px;
+  border-bottom: $border;
+  border-right: $border;
+}
+
+@media screen and (max-width: 699px) {
+  .form__block {
+    grid-template-columns: 140px 140px;     
+  }
+}

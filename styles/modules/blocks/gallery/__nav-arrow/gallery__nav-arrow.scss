@@ -1,0 +1,21 @@
+.gallery__nav-arrow {
+  width: 42px;
+  height: 34px;
+  background-image: url(../images/arrow-right.svg);
+  background-repeat: no-repeat;
+  transition: all 0.2s;
+  cursor: pointer;
+  align-self: center;
+
+  &:hover {
+    opacity: 70%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .gallery__nav-arrow {
+    width: 24px;
+    height: 20px;
+    background-image: url(../images/nav/arrow_small.svg);
+  }
+}

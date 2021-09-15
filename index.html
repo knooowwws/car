@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>cars</title>
 	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
 <body class="page">
@@ -31,7 +32,7 @@
 	</header>
 
 	<main class="content">
-		<section class="start page__section">
+		<section class="start content__section">
 			<div class="start__text-block">
 				<h1 class="start__title"><span class="span-accent_uppercase">volkswagen T1</span></h1>
 				<h2 class="start__subtitle">Новая версия популярного микроавтобуса</h2>
@@ -41,7 +42,7 @@
 			<a href="#" class="start__link link">Подробнее</a>
 		</section>
 
-		<section class="info page__section">
+		<section class="info content__section">
 			<div class="info__card info__card_position_first">
 				<p class="info__text">
 					<span class="info__bold">VW T1 Electro:</span> Отделение Volkswagen Commercial Vehicles представило концепт
@@ -69,29 +70,78 @@
 			</div>
 		</section>
 
-		<section class="gallery page__section">
-			<!--контейнер для слайдра-->
+		<section class="gallery content__section">
 			<div class="gallery__block">
-				<!--Обязательная оболочка слайдера-->
+
 				<div class="swiper-wrapper">
-					<!--слайд-->
-					<img src="./images/gallery/bus_on_road.jpg" alt="Фото автобуса" class="swiper-slide gallery__photo-item" />
-					<!--слайд-->
-					<img src="./images/gallery/bus_inside1.jpg" alt="Фото автобуса" class="swiper-slide gallery__photo-item" />
-					<!--слайд-->
-					<img src="./images/gallery/bus_inside.jpg" alt="Фото автобуса" class="swiper-slide gallery__photo-item" />
+					<img src="./images/car1.jpg" alt="первое Фото машины" class="swiper-slide gallery__photo-el" />
+					<img src="./images/car2.jpg" alt="второе Фото машины" class="swiper-slide gallery__photo-el" />
+					<img src="./images/car3.jpg" alt="третье Фото машины" class="swiper-slide gallery__photo-el" />
 				</div>
-				<!--Навигация слайдера-->
-				<div class="gallery__nav-wrapper">
-					<p class="page-text gallery__text">Галерея</p>
-					<div class="gallery__nav-arrow gallery__nav-arrow_type_left"></div>
-					<div class="gallery__nav-arrow gallery__nav-arrow_type_right"></div>
+
+				<div class="gallery__nav-block">
+					<h2 class="gallery__nav-text">Галерея</h2>
+					<div class="gallery__nav-arrow gallery__nav-arrow_turn_left"></div>
+					<div class="gallery__nav-arrow gallery__nav-arrow_turn_right"></div>
 				</div>
 			</div>
 		</section>
 
+		<section class="media page__section">
+			<div class="media__text-block">
+				<h2 class="media__title">Пресса</h2>
+			</div>
+			<div class="media__swiper-block">
+				<div class="media__swiper swiper-wrapper">
+					<div class="swiper-slide">
+						<p class="media__text-slide"><span class="media__bold">Engadget:</span>VW’s e-BULLI concept shows
+							how your classic van can become an EV.</p>
+					</div>
+					<div class="swiper-slide">
+						<p class="media__text-slide"><span class="span-accent_bold">Drive.ru:</span>Вэн Volkswagen e-Bulli
+							скрестил классику с современной техникой.</p>
+					</div>
+				</div>
+				<div class="media__nav-block"></div>
+				<a href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html" target="_blank"
+					class="media__link">Читать</a>
+			</div>
+		</section>
 	</main>
 
+	<footer class="footer page__section">
+		<div class="footer__block">
+			<h2 class="footer__title">Подписка</h2>
+			<p class="footer__text">На новые спецвыпуски машин.</p>
+			<div class="form">
+				<form class="form__block">
+					<div class="form__input-block">
+						<input type="text" name="name" placeholder="Имя" class="form__input form__input_type_name" required="">
+					</div>
+					<div class="form__input-block">
+						<input type="text" name="lastName" placeholder="Фамилия" class="form__input form__input_type_surname"
+							required="">
+					</div>
+					<div class="form__input-block">
+						<input type="email" name="email" placeholder="Почта" class="form__input form__input_type_email" required="">
+					</div>
+					<div class="form__input-block">
+						<button type="submit" aria-label="Кнопка подписаться" class="form__btn">Подписка</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="footer__block">
+			<div class="logo logo_place_footer"></div>
+			<p class="page-text footer__copyright">&copy; Makkasharip 2021</p>
+		</div>
+	</footer>
+
+
+
+
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="./js/script.js"></script>
 </body>
 
 </html>

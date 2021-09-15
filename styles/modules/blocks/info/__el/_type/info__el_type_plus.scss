@@ -1,4 +1,6 @@
 .info__el_type_plus {
+  margin: 0;
+
   &::before {
     content: '+ ';
   }

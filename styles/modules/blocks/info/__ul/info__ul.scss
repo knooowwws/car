@@ -4,17 +4,12 @@
   font-size: 22px;
   line-height: 32px;
   margin: 0;
-
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .info__ul {
     padding: 0px 0px 6px 20px;
     font-size: 16px;
     line-height: 20px;
   }
 }
-
-/*.info__ul:last-of-type {
-  padding: 0px 0px 20px 20px;
-}*/

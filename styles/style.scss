@@ -1,9 +1,16 @@
+//vendor
+@import "../vendor/normalize.css";
+@import "../vendor/fonts.css";
+
 //other
 @import './modules/variables.scss';
 
 //pgae
 @import './modules/blocks/page/page.scss';
 @import './modules/blocks/page/__section/page__section.scss';
+
+//content
+@import './modules/blocks/__section/content__section.scss';
 
 //header
 @import './modules/blocks/header/header.scss';
@@ -18,6 +25,7 @@
 //logo
 @import './modules/blocks/logo/logo.scss';
 @import './modules/blocks/logo/_place/logo_place_header.scss';
+@import './modules/blocks/logo/_place/logo_place_footer.scss';
 @import './modules/blocks/logo/_status/logo_status_none.scss';
 
 //start
@@ -46,9 +54,39 @@
 //gallery
 @import "./modules/blocks/gallery/gallery.scss";
 @import "./modules/blocks/gallery/__block/gallery__block.scss";
-@import "./modules/blocks/gallery/__photo-item/gallery__photo-item.scss";
-@import "./modules/blocks/gallery/__text/gallery__text.scss";
-@import "./modules/blocks/gallery/__nav-wrapper/gallery__nav-wrapper.scss";
+@import "./modules/blocks/gallery/__photo-el/gallery__photo-el.scss";
+@import "./modules/blocks/gallery/__nav-text/gallery__nav-text.scss";
+@import "./modules/blocks/gallery/__nav-block/gallery__nav-block.scss";
 @import "./modules/blocks/gallery/__nav-arrow/gallery__nav-arrow.scss";
-@import "./modules/blocks/gallery/__nav-arrow/_type/gallery__nav-arrow_type_left.scss";
-@import "./modules/blocks/gallery/__nav-arrow/_type/gallery__nav-arrow_type_right.scss";
+@import "./modules/blocks/gallery/__nav-arrow/_turn/gallery__nav-arrow_turn_left.scss";
+@import "./modules/blocks/gallery/__nav-arrow/_turn/gallery__nav-arrow_turn_right.scss";
+
+//media
+@import "./modules/blocks/media/media.scss";
+@import "./modules/blocks/media/__text-block/media__text-block.scss";
+@import "./modules/blocks/media/__title/media__title.scss";
+@import "./modules/blocks/media/__swiper-block/media__swiper-block.scss";
+@import "./modules/blocks/media/__swiper/media__swiper.scss";
+@import "./modules/blocks/media/__text-slide/media__text-slide.scss";
+@import "./modules/blocks/media/__bold/media__bold.scss";
+@import "./modules/blocks/media/__nav-block/media__nav-block.scss";
+@import "./modules/blocks/media/__bullet/media__bullet.scss";
+@import "./modules/blocks/media/__bullet/_active/media__bullet_active.scss";
+@import "./modules/blocks/media/__link/media__link.scss";
+
+//footer
+@import "./modules/blocks/footer/footer.scss";
+@import "./modules/blocks/footer/__block/footer__block.scss";
+@import "./modules/blocks/footer/__title/footer__title.scss";
+@import "./modules/blocks/footer/__text/footer__text.scss";
+@import "./modules/blocks/footer/__copyright/footer__copyright.scss";
+
+//form
+@import "./modules/blocks/form/form.scss";
+@import "./modules/blocks/form/__block/form__block.scss";
+@import "./modules/blocks/form/__input-block/form__input-block.scss";
+@import "./modules/blocks/form/__input/form__input.scss";
+@import "./modules/blocks/form/__input/_type/form__input_type_email.scss";
+@import "./modules/blocks/form/__input/_type/form__input_type_surname.scss";
+@import "./modules/blocks/form/__input/_type/form__input_type_name.scss";
+@import "./modules/blocks/form/__btn/form__btn.scss";

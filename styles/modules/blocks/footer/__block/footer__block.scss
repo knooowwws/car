@@ -1,0 +1,24 @@
+.footer__block {
+  width: 50%;
+  border-right: $border;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+
+  &:last-of-type {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer__block {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .footer__block {
+    width: 100%;
+    padding-bottom: 0px;
+  }
+}

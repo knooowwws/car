@@ -4,10 +4,12 @@
   line-height: 37px;
   letter-spacing: 2px;
   padding: 41px 0px 50px 50px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
-@media screen and (max-width: 320px) {
-  .info__title { 
+@media screen and (max-width: 480px) {
+  .info__title {
     font-size: 22px;
     line-height: 22px;
     padding: 20px 0px 40px 20px;

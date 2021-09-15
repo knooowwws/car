@@ -1,6 +1,6 @@
 .start {
   display: grid;
-  border-bottom: $borderStyle;
+  border-bottom: $border;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content 1fr;
   padding: 150px 0;

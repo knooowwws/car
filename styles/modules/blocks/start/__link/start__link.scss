@@ -10,33 +10,34 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  border: $borderStyle;
+  border: $border;
   width: 360px;
   height: 64px;
   position: relative;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
-}
+  text-transform: uppercase;
 
-.start__link:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: $backgroundHoverColor;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  transform-origin: bottom left;
-  transform: rotate(-90deg);
-  transition: transform 0.3s;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $backgroundHover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transform-origin: bottom left;
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+  }
 }
 
 .start__link:hover,
 .start__link:hover:before {
   transform: rotate(0deg);
-  color: $textHoverColor;
+  color: $textHover;
   cursor: pointer;
 }
 
