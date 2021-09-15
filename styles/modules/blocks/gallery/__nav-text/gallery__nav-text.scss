@@ -1,0 +1,15 @@
+.gallery__nav-text {
+  font-weight: 400;
+  padding-left: 50px;
+  font-size: 46px;
+  line-height: 46px;
+  margin: 0;
+}
+
+@media screen and (max-width: 560px) {
+  .gallery__nav-text {
+    padding-left: 0px;
+    font-size: 26px;
+    line-height: 26px;
+  }
+}

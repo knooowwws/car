@@ -1,0 +1,13 @@
+.header__nav-block {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__nav-block {
+    gap: 16px;
+  }
+}

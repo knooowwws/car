@@ -1,0 +1,21 @@
+.start__photo {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .start__photo {
+    margin: 0px 0px 102px 0px;
+    width: 91%;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .start__photo {
+    align-self: center;
+    width: 87%;
+    margin: 0px 20px 62px 20px;
+  }
+}

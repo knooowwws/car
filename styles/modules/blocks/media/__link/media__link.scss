@@ -1,0 +1,54 @@
+.media__link {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: $border;
+  width: 110px;
+  height: 52px;
+  border-radius: 50%;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  transition: all 0.5s;
+  margin: 0px 50px 50px 0px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $backgroundHover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transform-origin: bottom left;
+    transform: translate(-100%, 0);
+    transition: transform 0.3s;
+  }
+}
+
+
+.media__link:hover,
+.media__link:hover:before {
+  transform: translate(0, 0);
+  color: $textHover;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 320px) {
+  .media__link {
+    width: 88px;
+    height: 42px;
+    font-size: 14px;
+    margin: 0px 20px 20px 0px;
+  }
+}

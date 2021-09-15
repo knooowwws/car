@@ -1,0 +1,17 @@
+.gallery__nav-arrow_turn_right {
+  margin-right: 52px;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 560px) {
+  .gallery__nav-arrow_turn_right {
+    margin-left: 16px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery__nav-arrow_turn_right {
+    margin-right: 0px;
+  }
+}

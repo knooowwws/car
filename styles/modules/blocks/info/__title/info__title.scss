@@ -1,0 +1,17 @@
+.info__title {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  padding: 41px 0px 50px 50px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+  .info__title {
+    padding: 20px 0px 40px 20px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+}

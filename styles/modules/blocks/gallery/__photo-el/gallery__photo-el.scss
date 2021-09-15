@@ -1,0 +1,15 @@
+.gallery__photo-el {
+  width: 100%;
+}
+
+@media screen and (max-width: 899px) {
+  .gallery__photo-el {
+    width: 91%;    
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .gallery__photo-el {
+    width: 87%;     
+  }
+}

@@ -1,0 +1,12 @@
+.media__swiper-block {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr min-content;
+}
+
+@media screen and (max-width: 768px) {
+  .media__swiper-block {
+    width: 100%;
+  }
+}

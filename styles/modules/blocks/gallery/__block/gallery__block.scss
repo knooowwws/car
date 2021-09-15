@@ -1,0 +1,22 @@
+.gallery__block {
+  width: 50%;
+  border-right: $border;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 899px) {
+  .gallery__block {
+    display: flex;
+    flex-direction: column;
+    border-right: none;
+    width: 91%;
+    padding: 35px 35px 0px 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .gallery__block {
+    width: 100%;
+    padding: 20px 20px 0px 20px;
+  }
+}

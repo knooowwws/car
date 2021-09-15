@@ -1,0 +1,10 @@
+.form__input-block {
+  display: flex;
+  flex-direction: column;
+  border-top: $border;
+  border-left: $border;
+}
+
+.form__input-block:last-of-type {
+  border-left: none;
+}

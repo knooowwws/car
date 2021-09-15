@@ -1,0 +1,10 @@
+.header__nav {
+  padding-left: 50px;
+  align-self: center;
+}
+
+@media screen and (max-width: 320px) {
+  .header__nav {
+    padding-left: 20px;
+  }
+}

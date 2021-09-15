@@ -1,0 +1,55 @@
+.start__link {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  justify-self: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: $border;
+  width: 360px;
+  height: 64px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: $backgroundHover;
+    transition: transform 0.3s;
+    width: 100%;
+    z-index: -1;
+    transform-origin: bottom left;
+    transform: translate(-100%, 0);
+  }
+}
+
+.start__link:hover,
+.start__link:hover:before {
+  transform: translate(0, 0);
+  color: $textHover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .start__link {
+    width: 240px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .start__link {
+    width: 280px;
+  }
+}
