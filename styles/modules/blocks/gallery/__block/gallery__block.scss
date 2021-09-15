@@ -6,10 +6,10 @@
 
 @media screen and (max-width: 899px) {
   .gallery__block {
-    width: 91%;
     display: flex;
     flex-direction: column;
     border-right: none;
+    width: 91%;
     padding: 35px 35px 0px 35px;
   }
 }

@@ -1,9 +1,9 @@
 .footer__block {
   width: 50%;
   border-right: $border;
+  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 50px;
 
   &:last-of-type {
     border: none;

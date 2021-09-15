@@ -1,12 +1,12 @@
 .form {
   width: 340px;
-  padding: 64px 0px 50px 50px;    
+  padding: 64px 0px 50px 50px;
 }
 
 @media screen and (max-width: 699px) {
   .form {
+    padding: 0px 20px 120px 20px;
     width: 280px;
-    padding: 0px 20px 120px 20px; 
-    align-self: center;   
+    align-self: center;
   }
 }
