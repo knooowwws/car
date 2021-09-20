@@ -1,3 +1,4 @@
+@import 'https://unpkg.com/swiper@7/swiper-bundle.min.css';
 @import "../vendor/normalize.css";
 @import "../vendor/fonts.css";
 .page {
@@ -79,6 +80,8 @@
 }
 .header__burger {
   display: none;
+  border: none;
+  background: transparent;
 }
 .header__burger::before {
   top: 0;
@@ -166,6 +169,7 @@
     bottom: 22px;
     width: 100px;
     height: 20px;
+    left: calc(50% - 50px);
   }
 }
 .logo_place_footer {
@@ -222,6 +226,7 @@
   font-size: 19px;
   padding: 30px 0px 30px 0px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
@@ -258,6 +263,7 @@
   margin: 0;
   line-height: 28px;
   padding-bottom: 62px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 480px) {
@@ -396,15 +402,12 @@
     grid-row: 1/2;
   }
 }
-@media screen and (max-width: 768px) {
-  .info__card_position_second {
-    min-height: 506px;
-  }
-}
 @media screen and (max-width: 480px) {
   .info__card_position_second {
     grid-row: 2/3;
     grid-column: 1/2;
+    max-height: 175px;
+    padding-bottom: 8px;
   }
 }
 .info__card_position_third {
@@ -460,6 +463,9 @@
   font-weight: 300;
   line-height: 32px;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 @media screen and (max-width: 480px) {
@@ -470,7 +476,7 @@
   }
 }
 .info__el {
-  line-height: 32px;
+  line-height: 1;
   list-style: none;
   font-size: 22px;
 }
@@ -652,6 +658,9 @@
   line-height: 42px;
   padding: 50px 50px 0px;
   margin: 0;
+}
+.media__text-slide span {
+  font-weight: 400;
 }
 
 @media screen and (max-width: 320px) {
@@ -856,9 +865,12 @@
 }
 .form__input-block {
   display: flex;
+  border: none;
   flex-direction: column;
   border-top: 1px solid #E1FD2C;
   border-left: 1px solid #E1FD2C;
+  margin: 0;
+  padding: 0;
 }
 
 .form__input-block:last-of-type {

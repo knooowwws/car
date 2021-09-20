@@ -28,10 +28,6 @@ const gallerySwiper = new Swiper('.gallery__block', {
     nextEl: '.gallery__nav-arrow_turn_right',
     prevEl: '.gallery__nav-arrow_turn_left',
   },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false,
-  }
 });
 
 const mediaSwiper = new Swiper(".media__swiper-block", {
@@ -45,8 +41,4 @@ const mediaSwiper = new Swiper(".media__swiper-block", {
     bulletActiveClass: 'media__bullet_active',
     clickable: true,
   },
-  autoplay: {
-    delay: 2000,
-    disableOnInteraction: false,
-  }
 });

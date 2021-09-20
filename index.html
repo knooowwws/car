@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>cars</title>
 	<link rel="stylesheet" href="./styles/style.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
 <body class="page">
@@ -26,17 +25,17 @@
 			</ul>
 		</nav>
 		<div class="logo logo_place_header"></div>
-		<div class="header__burger">
+		<button type="menu" class="header__burger">
 			<span></span>
-		</div>
+		</button>
 	</header>
 
 	<main class="content">
 		<section class="start content__section">
 			<div class="start__text-block">
-				<h1 class="start__title"><span class="span-accent_uppercase">volkswagen T1</span></h1>
+				<h1 class="start__title">volkswagen T1</h1>
 				<h2 class="start__subtitle">Новая версия популярного микроавтобуса</h2>
-				<p class="start__text"><span class="span-accent_uppercase">С электро двигателем</span></p>
+				<p class="start__text">С электро двигателем</p>
 			</div>
 			<img src="./images/bus1.jpg" alt="Фото автобуса" class="start__photo" />
 			<a href="#" class="start__link">Подробнее</a>
@@ -73,7 +72,7 @@
 		<section class="gallery content__section">
 			<div class="gallery__block">
 
-				<div class="swiper-wrapper">
+				<div class="gallery__swiper swiper-wrapper">
 					<img src="./images/car1.jpg" alt="первое Фото машины" class="swiper-slide gallery__photo-el" />
 					<img src="./images/car2.jpg" alt="второе Фото машины" class="swiper-slide gallery__photo-el" />
 					<img src="./images/car3.jpg" alt="третье Фото машины" class="swiper-slide gallery__photo-el" />
@@ -93,12 +92,12 @@
 			</div>
 			<div class="media__swiper-block">
 				<div class="media__swiper swiper-wrapper">
-					<div class="swiper-slide">
+					<div class="media__slider swiper-slide">
 						<p class="media__text-slide"><span class="media__bold">Engadget:</span>VW’s e-BULLI concept shows
 							how your classic van can become an EV.</p>
 					</div>
-					<div class="swiper-slide">
-						<p class="media__text-slide"><span class="span-accent_bold">Drive.ru:</span>Вэн Volkswagen e-Bulli
+					<div class="media__slider swiper-slide">
+						<p class="media__text-slide"><span>Drive.ru:</span>Вэн Volkswagen e-Bulli
 							скрестил классику с современной техникой.</p>
 					</div>
 				</div>
@@ -114,22 +113,23 @@
 			<h2 class="footer__title">Подписка</h2>
 			<p class="footer__text">На новые спецвыпуски машин.</p>
 			<div class="form">
-				<form class="form__block">
-					<div class="form__input-block">
+				<form name='contacts' class="form__block">
+					<fieldset class="form__input-block">
 						<input type="text" name="name" placeholder="Имя" class="form__input form__input_type_name" required="">
-					</div>
-					<div class="form__input-block">
+					</fieldset>
+					<fieldset class="form__input-block">
 						<input type="text" name="lastName" placeholder="Фамилия" class="form__input form__input_type_surname"
 							required="">
-					</div>
-					<div class="form__input-block">
+					</fieldset>
+					<fieldset class="form__input-block">
 						<input type="email" name="email" placeholder="Почта" class="form__input form__input_type_email" required="">
-					</div>
-					<div class="form__input-block">
+					</fieldset>
+					<fieldset class="form__input-block">
 						<button type="submit" aria-label="Кнопка подписаться" class="form__btn">Подписка</button>
-					</div>
+					</fieldset>
 				</form>
 			</div>
+		</div>
 		</div>
 		<div class="footer__block">
 			<div class="logo logo_place_footer"></div>

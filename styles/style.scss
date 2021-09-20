@@ -1,4 +1,5 @@
 //vendor
+@import 'https://unpkg.com/swiper@7/swiper-bundle.min.css';
 @import "../vendor/normalize.css";
 @import "../vendor/fonts.css";
 
@@ -10,7 +11,7 @@
 @import './modules/blocks/page/__section/page__section.scss';
 
 //content
-@import './modules/blocks/__section/content__section.scss';
+@import './modules/blocks/content/__section/content__section.scss';
 
 //header
 @import './modules/blocks/header/header.scss';
