@@ -1,8 +1,11 @@
 .form__input-block {
   display: flex;
+  border: none;
   flex-direction: column;
   border-top: $border;
   border-left: $border;
+  margin: 0;
+  padding: 0;
 }
 
 .form__input-block:last-of-type {
